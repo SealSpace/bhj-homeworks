@@ -22,12 +22,12 @@ function checkHole() {
         deaths.textContent = 0;
         losts.textContent = 0;
     }
-}
+};
 
 function getHole(index) {
     return document.getElementById(`hole${index}`);
-}
+};
 
 for (i = 1; 9; i++) {
     getHole(i).onclick = checkHole;
-}
+};
