@@ -17,7 +17,7 @@ chatWidget.addEventListener('click', () => {
     chatWidget.classList.add('chat-widget_active')
 });
 
-//глухая беседа
+//беседа
 
 chatInput.addEventListener('keypress', (event) => {
 
